@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Background circle for high-contrast visibility -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 60,10 C 87.6,10 110,32.4 110,60 C 110,87.6 87.6,110 60,110 C 32.4,110 10,87.6 10,60 C 10,32.4 32.4,10 60,10 Z" />
+
+    <!-- Outer Navy Border Line -->
+    <path
+        android:strokeColor="#001534"
+        android:strokeWidth="1.5"
+        android:pathData="M 60,12 C 86.5,12 108,33.5 108,60 C 108,86.5 86.5,108 60,108 C 33.5,108 12,86.5 12,60 C 12,33.5 33.5,12 60,12 Z" />
+
+    <!-- LEFT WREATH (Leafy Garland) -->
+    <!-- Leaf 1 -->
+    <path
+        android:fillColor="#001534"
+        android:pathData="M 32,85 C 28,80 25,72 26,67 C 28,72 34,78 35,82 Z" />
+    <!-- Leaf 2 -->
+    <path
+        android:fillColor="#001534"
+        android:pathData="M 27,68 C 23,63 21,55 23,50 C 25,55 30,61 31,65 Z" />
+    <!-- Leaf 3 -->
+    <path
+        android:fillColor="#001534"
+        android:pathData="M 25,51 C 22,46 21,38 24,33 C 26,38 30,44 31,48 Z" />
+    <!-- Leaf 4 -->
+    <path
+        android:fillColor="#001534"
+        android:pathData="M 27,35 C 25,30 25,23 29,19 C 31,24 33,30 33,34 Z" />
+    <!-- Leaf 5 -->
+    <path
+        android:fillColor="#001534"
+        android:pathData="M 35,22 C 34,17 36,11 41,8 C 41,13 41,19 39,23 Z" />
+
+    <!-- RIGHT WREATH (Leafy Garland) -->
+    <!-- Leaf 1 -->
+    <path
+        android:fillColor="#001534"
+        android:pathData="M 88,85 C 92,80 95,72 94,67 C 92,72 86,78 85,82 Z" />
+    <!-- Leaf 2 -->
+    <path
+        android:fillColor="#001534"
+        android:pathData="M 93,68 C 97,63 99,55 97,50 C 95,55 90,61 89,65 Z" />
+    <!-- Leaf 3 -->
+    <path
+        android:fillColor="#001534"
+        android:pathData="M 95,51 C 98,46 99,38 96,33 C 94,38 90,44 89,48 Z" />
+    <!-- Leaf 4 -->
+    <path
+        android:fillColor="#001534"
+        android:pathData="M 93,35 C 95,30 95,23 91,19 C 89,24 87,30 87,34 Z" />
+    <!-- Leaf 5 -->
+    <path
+        android:fillColor="#001534"
+        android:pathData="M 85,22 C 86,17 84,11 79,8 C 79,13 79,19 81,23 Z" />
+
+    <!-- TOP RIBBON/SCROLL -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#001534"
+        android:strokeWidth="1.5"
+        android:pathData="M 30,18 C 45,13 75,13 90,18 L 88,26 C 73,21 47,21 32,26 Z" />
+    <!-- Top Ribbon Folds -->
+    <path
+        android:fillColor="#001534"
+        android:pathData="M 30,18 L 26,22 L 32,26 Z M 90,18 L 94,22 L 88,26 Z" />
+
+    <!-- BOTTOM RIBBON/SCROLL -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#001534"
+        android:strokeWidth="1.5"
+        android:pathData="M 25,95 C 45,100 75,100 95,95 L 93,103 C 73,108 47,108 27,103 Z" />
+    <!-- Bottom Ribbon Folds -->
+    <path
+        android:fillColor="#001534"
+        android:pathData="M 25,95 L 21,99 L 27,103 Z M 95,95 L 99,99 L 93,103 Z" />
+
+    <!-- CRESTED CRANE BIRD (Centerpiece) -->
+    <!-- Legs -->
+    <path
+        android:strokeColor="#001534"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M 61,70 L 61,90 M 58,72 L 54,82 L 58,82" />
+    
+    <!-- Body -->
+    <path
+        android:fillColor="#001534"
+        android:pathData="M 48,58 C 44,65 52,72 61,71 C 67,70 70,64 67,55 C 64,52 52,52 48,58 Z" />
+    
+    <!-- Wing Highlight -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 52,60 C 50,64 54,68 59,67 C 62,66 63,62 61,58 Z" />
+
+    <!-- Neck S-Curve -->
+    <path
+        android:strokeColor="#001534"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:pathData="M 64,54 C 62,45 50,47 52,38" />
+
+    <!-- Head -->
+    <path
+        android:fillColor="#001534"
+        android:pathData="M 52,38 C 50,38 48,36 49,33 C 51,31 54,32 55,34 C 55,36 54,38 52,38 Z" />
+
+    <!-- Beak -->
+    <path
+        android:strokeColor="#001534"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M 49,34 L 44,35" />
+
+    <!-- Red Wattles under beak -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M 49,36 C 48,38 50,39 50,37 Z" />
+
+    <!-- Crested Crown (Feathers on top) -->
+    <path
+        android:strokeColor="#EAB308"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M 52,32 L 54,26 M 53,32 L 56,27 M 51,32 L 51,26 M 50,32 L 48,27" />
+
+    <!-- Crown Feather Tips -->
+    <path
+        android:fillColor="#001534"
+        android:pathData="M 54,26 C 55,26 55,25 54,25 C 53,25 53,26 54,26 Z M 56,27 C 57,27 57,26 56,26 C 55,26 55,27 56,27 Z M 51,26 C 52,26 52,25 51,25 C 50,25 50,26 51,26 Z M 48,27 C 49,27 49,26 48,26 C 47,26 47,27 48,27 Z" />
+
+    <!-- Tiny Eye -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 51,34 A 0.75,0.75 0 1,0 52.5,34 A 0.75,0.75 0 1,0 51,34 Z" />
+
+</vector>

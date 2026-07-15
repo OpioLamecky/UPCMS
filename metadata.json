@@ -1,0 +1,6 @@
+{
+  "name": "PCMS",
+  "description": "A fully local Police Case Management System (PCMS) to manage cases, statements, suspects, complainants, witnesses, evidence, and investigations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
